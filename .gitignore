@@ -1,0 +1,29 @@
+# Arquivos de estado do Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+
+# Arquivos de chaves SSH
+*.pem
+*.key
+chave-dev
+chave-dev.pub
+
+# Arquivos de log
+*.log
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo 
